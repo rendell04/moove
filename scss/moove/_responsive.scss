@@ -1,5 +1,6 @@
-//customized - for static footer margin-left
+//customized - 
 @media (max-width: 575px){
+  // for static footer margin-left
   #page-local-staticpage-view{
     
     #top-footer{
@@ -11,8 +12,21 @@
     }
     
     #page-footer{
-    margin-left: 0px !important;
+        margin-left: 0px !important;
+    }
+    .frontpage-marketing {
+      margin-top: 0;
+    }
+    .carousel-indicators{
+      bottom: 0px !important;
+    }
   }
+
+  //for view course offline footer
+  #page-course-index-category.notloggedin{
+    #top-footer, #page-footer{
+        margin-left: 0px !important;
+    }
   }
   
 }
