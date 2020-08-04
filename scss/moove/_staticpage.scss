@@ -8,6 +8,7 @@
     .frontpage-marketing{
         margin-top: -4rem;
         padding: 25px;
+        margin-bottom: 60px;
 
         .card{
             text-align: center;
@@ -44,6 +45,11 @@
     
     #page-header{
         margin-left: -55px !important;
+    }
+
+    //color font of static pages header
+    .frontpage-maincontent .container h3.text-center{
+        color: $h2-header;
     }
 }
 

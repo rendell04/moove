@@ -105,7 +105,15 @@ nav.navbar {
     .custom-menus {
         .nav-item {
             padding-left: 3rem;
+            .nav-link{
+                &:hover{
+                    color: rgb(12, 119, 12);
+                    font-weight: bold;
+                 }
+            }
         }
+
+        
     }
 
     ul.navbar-nav {

@@ -151,7 +151,14 @@
                 transition: 0.2s ease-out;
             }
 
-
+            &:hover{
+                h1{
+                    transform: scale(1.4);
+                }
+                h4{
+                    color: #6d9879!important;
+                }
+            }
            
         }
         
