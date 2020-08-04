@@ -33,12 +33,14 @@
   nav.navbar .navbar-brand .logo img {
     height: 55px;
   }
-  
-  .carousel-indicators{
+  #page-local-staticpage-view{
+    .carousel-indicators{
       bottom: 0px !important;
       margin-right: 0 !important;
       margin-left: 3rem;
     }
+  }
+  
 
   //login logo
   #page-login-index .logo img {
