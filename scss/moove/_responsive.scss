@@ -1,12 +1,20 @@
 //customized - for static footer margin-left
 @media (max-width: 575px){
-  #page-local-staticpage-view #top-footer{
+  #page-local-staticpage-view{
+    
+    #top-footer{
+      margin-left: 0px !important;
+    }
+
+    #page-header{
+        margin-left: -55px !important;
+    }
+    
+    #page-footer{
     margin-left: 0px !important;
+  }
   }
   
-  #page-footer{
-    margin-left: 0px !important;
-  }
 }
 
 @media only screen and (max-width: 1008px){
