@@ -1,13 +1,61 @@
 //For Static Pages
 
+#page-local-staticpage-view {
+    .carousel-indicators {
+        bottom: 80px;
+    }
+
+    .frontpage-marketing{
+        margin-top: -4rem;
+        padding: 25px;
+
+        .card{
+            text-align: center;
+            .card-body{
+                h1{
+                    font-size: 61px;
+                    color: $tickerFontColor;
+                    transition: 0.2s ease-out;
+                }
+                h4{
+                    font-size: 21px;
+                    color: $tickerFontColor;
+                    transition: 0.2s ease-out;
+                }
+            }
+
+             &:hover{
+                h1{
+                    transform: scale(1.4);
+                }
+                h4{
+                    color: #6d9879!important;
+                }
+            }
+        }
+    }
+
+    #mooveslideshow .carousel-indicators li{
+        border-radius: 5px;
+        width: 10px;
+        height: 10px;
+        border: 1px solid #55595c;
+    } 
+    
+    #page-header{
+        margin-left: -55px !important;
+    }
+}
+
+
 // Footer anomalies
 #page-local-staticpage-view #top-footer{
     margin-left: -55px !important;
 }
 
- #page-footer{
-    margin-left: -55px !important;
-  }
+#page-footer{
+margin-left: -55px !important;
+}
 
 
 //About us

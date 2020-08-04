@@ -197,5 +197,13 @@ $THEME->layouts = [
         'file' => 'secure.php',
         'regions' => array('side-pre'),
         'defaultregion' => 'side-pre'
-    )
+    ),
+
+     //added a static page 
+    'staticpage' => array(
+        'file' => 'staticpage.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+        'options' => array('nonavbar' => true),
+    ),
 ];
