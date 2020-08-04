@@ -17,9 +17,6 @@
     .frontpage-marketing {
       margin-top: 0;
     }
-    .carousel-indicators{
-      bottom: 0px !important;
-    }
   }
 
   //for view course offline footer
@@ -36,6 +33,12 @@
   nav.navbar .navbar-brand .logo img {
     height: 55px;
   }
+  
+  .carousel-indicators{
+      bottom: 0px !important;
+      margin-right: 0 !important;
+      margin-left: 3rem;
+    }
 
   //login logo
   #page-login-index .logo img {
