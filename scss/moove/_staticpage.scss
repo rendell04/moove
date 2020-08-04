@@ -1,6 +1,14 @@
-
-
 //For Static Pages
+
+// Footer anomalies
+#page-local-staticpage-view #top-footer{
+    margin-left: -55px !important;
+}
+
+ #page-footer{
+    margin-left: -55px !important;
+  }
+
 
 //About us
 .static-custom-flex{
