@@ -242,6 +242,10 @@ nav.navbar {
                 padding: .2rem .8rem 0;
             }
 
+            .popover-region-toggle::after{
+                z-index: 0 !important;
+            }
+
             .popover-region-toggle {
                 i.fa {
                     font-size: 1.4rem;
