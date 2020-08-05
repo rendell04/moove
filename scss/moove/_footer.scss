@@ -16,6 +16,7 @@
      p{
          font-size: 14px;
      }
+
   }
 
   #social-icons {
@@ -63,6 +64,7 @@
 
     ul {
         list-style: none;
+        padding-left: 1px !important;
     }
 
     .contact ul li {
@@ -173,6 +175,8 @@
             margin-bottom: 0;
         }
     }
+
+   
 }
 
 @include media-breakpoint-down(md) {
