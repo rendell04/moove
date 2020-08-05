@@ -242,6 +242,7 @@ nav.navbar {
                 padding: .2rem .8rem 0;
             }
 
+            //popover z-index in notification 
             .popover-region-toggle::after{
                 z-index: 0 !important;
             }

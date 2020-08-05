@@ -3,6 +3,16 @@
     cursor: copy;
 }
 
+//customized for long click hover
+
+.path-calendar .maincalendar .calendar-controls .previous, .path-calendar .maincalendar .calendar-controls .next {
+    width: 18% !important;
+}
+.path-calendar .maincalendar .calendar-controls .current {
+    width: 64% !important;
+}
+
+// <---
 .path-calendar .maincalendar .calendarmonth {
     .header {
         background-color: #f2f7f8;
