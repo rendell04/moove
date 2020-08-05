@@ -12,6 +12,10 @@
      a{
          color: #c9c9c9 !important;
      }
+
+     p{
+         font-size: 14px;
+     }
   }
 
   #social-icons {
@@ -29,6 +33,11 @@
       padding-right: 18px;
     }
   }
+
+  .where #address-list li{
+      display: flex;
+  }
+
 }
 
 #page-course-index-category.notloggedin{
@@ -37,6 +46,7 @@
     }
     
 }
+
 ///<--
 
 #top-footer {
@@ -45,8 +55,10 @@
     padding: 40px 15px;
     color: $headings-color;
 
+    //customized
     h3 {
         color: $brand-primary;
+        font-size: 20px;
     }
 
     ul {
@@ -151,7 +163,7 @@
         }
     }
     .madeby {
-        font-size: 14px;
+        font-size: 11px;
 
         a {
             color: #fff;
