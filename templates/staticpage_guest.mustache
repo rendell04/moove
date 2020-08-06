@@ -43,7 +43,10 @@
     }
 }}
     {{>theme_moove/inc_start}}
-    
+    {{! if user is logged in, redirect to home page }}
+    {{#hasdrawertoggle}}
+            <script>window.location.href ="{{{ config.wwwroot }}}"</script>
+    {{/hasdrawertoggle}}
     <div id="page" class="container-fluid static" style="padding-left:0;padding-right:0">
         <div id="page-header" class="frontpage-guest-header" >
             <div class="space">
@@ -68,6 +71,7 @@
             
             </div>
         </div>
+        
         <div class="container">
             {{>theme_moove/frontpage_marketing}}
         </div>

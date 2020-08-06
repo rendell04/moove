@@ -41,7 +41,6 @@
     }
   }
   
-
   //login logo
   #page-login-index .logo img {
     width: 13rem;
@@ -51,7 +50,16 @@
   #page-login-signup .text-center img {
       width: 13rem;
   }
+
 }
+
+//dashboard font
+@media only screen and (max-width: 1200px){
+  #page-my-index .small-box h3, #page-my-index .small-box p{
+        font-size: 11px !important;  
+    }
+}
+
 
 
 //<--
