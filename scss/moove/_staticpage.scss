@@ -129,11 +129,10 @@ margin-left: -55px !important;
 
     .grid-1 {
         display: grid;
-        background: #ffff;
         width: 100%;
         max-width: 90%;
         margin: 0 auto;
-        grid-template-columns: repeat(auto-fill, minmax(10.5em, 1fr));
+        grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
         grid-gap: 20px;
 
     }
